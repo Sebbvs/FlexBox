@@ -6,6 +6,10 @@ section {
     flex-wrap: wrap;
 }
 
+p.ce {
+    text-align: center;
+} 
+
 
 section.ej11 {
     display: flex;
