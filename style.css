@@ -1,0 +1,122 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    flex-wrap: wrap;
+}
+
+
+section.ej11 {
+    display: flex;
+    margin-bottom: 5px;
+}
+section.ej11 p{
+    border: black 2px solid;
+    margin: 10px;
+    width: 200px;
+}
+
+
+section.ej12 {
+    display: flex;
+    margin-bottom: 5px;
+}
+section.ej12 p {
+    border: black 2px solid;
+    margin: 10px;
+    width: 200px;
+}
+
+
+section.ej13 {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+section.ej13 p {
+    border: black 2px solid;
+    margin: 10px;
+    width: 200px;
+}
+
+
+section.ej21 {
+    display: inline-flex;
+    flex-direction: row;
+}
+section.ej21 p {
+    width: 200px;
+    margin: 0;
+}
+section.ej210 {
+    width: 200px;
+    flex-direction: column;
+    margin: 10px;
+    border: black 2px solid;
+}
+section.ej210 p.tit {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 175%;
+}
+
+
+
+section.ej22 {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.ej22 p {
+    border: black 2px solid;
+    width: 200px;
+    margin: 0;
+}
+section.ej220 {
+    width: 200px;
+    flex-direction: column;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+section.ej220 p.tit {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 175%;
+}
+
+
+section.ej23 {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+section.ej24 {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+section.ej25 {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+section.ej31 {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+section.ej32 {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+
+section.ej33 {
+    display: inline;
+    margin-bottom: 5px;
+}
