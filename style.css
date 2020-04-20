@@ -25,6 +25,7 @@ section.ej11 p{
 section.ej12 {
     display: flex;
     margin-bottom: 5px;
+    justify-content: space-around;
 }
 section.ej12 p {
     border: black 2px solid;
@@ -48,6 +49,7 @@ section.ej13 p {
 section.ej21 {
     display: inline-flex;
     flex-direction: row;
+    
 }
 section.ej21 p {
     width: 200px;
@@ -55,7 +57,6 @@ section.ej21 p {
 }
 section.ej210 {
     width: 200px;
-    flex-direction: column;
     margin: 10px;
     border: black 2px solid;
 }
@@ -91,36 +92,139 @@ section.ej220 p.tit {
 
 
 section.ej23 {
-    display: inline;
+    display: flex;
     margin-bottom: 5px;
+    text-align: justify;
+}
+section.ej23 table {
+    border: black 2px solid;
+    width: 200px; 
+    margin: 0 20px 0 0;
+    height: 400px;
+} 
+section.ej23 td.primero { 
+    border-right: black 2px solid;
 }
 
 
 section.ej24 {
-    display: inline;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+section.ej24 table{
+    border: black 2px solid;
+    width: 200px;
+    margin-right: 20px;
+}
+section.ej24 td {
+    background-color: lightgray;
+}
+section.ej24 td.segundo {
+    background-color: white;
+    border-right: black 2px solid;
 }
 
 
 section.ej25 {
-    display: inline;
+    display: flex;
     margin-bottom: 5px;
+}
+section.ej25 table {
+    border: black 2px solid;
+    width: 200px;
+    height: 100px;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+section.ej25 td {
+    background-color: lightgray;
+}
+section.ej25 td.tercero {
+    background-color: white;
+    border-right:  black 2px solid;
 }
 
 
 section.ej31 {
-    display: inline;
+    display: flex;
     margin-bottom: 5px;
+}
+section.ej31 table {
+    border: black 2px solid;
+}
+section.ej31 td.tercero {
+    background-color: lightgray;
 }
 
 
 section.ej32 {
-    display: inline;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+section.ej32 table{
+    width: 200px;
+    margin-right: 20px;
+    height: 300px;
+}
+section.ej32 td {
+    border: black 2px solid;
+    width: 100px;
+    margin: 0;
+    text-align: justify;
+}
+section.ej32 td.img {
+    border-top: black 2px solid;
+    border-left: black 2px solid;
+    border-bottom: black 2px solid;
+    border-right: none;
+}
+section.ej32 p {
+    width: 200px;
+    margin: 0;
+}
+section.ej32 p.tit {
+    text-align: center;
+    background-color: lightgray;
+    font-size: 175%;
+    border-bottom: black 2px solid;
 }
 
 
 section.ej33 {
-    display: inline;
-    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+section.ej33 table{
+    width: 200px;
+    margin-right: 20px;
+    height: 300px;
+    margin-right: 20px;
+    background-color: lightgray;
+}
+section.ej33 td {
+    width: 200px;
+    margin: 0;
+    text-align: justify;
+    background-color: lightgray;
+    border: 2px black solid;
+}
+section.ej33 td.borde {
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+    border-bottom-right-radius: 50px;
+}
+section.ej33 td.fruta {
+    border-top: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: none;
+    border-left: none;
+}
+section.ej33 td.tex {
+    background-color: white;
+    border-top: none;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+    border-left: 2px black solid;
 }
